@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section .image-text h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+.color{
+    color: white;
+}
+a{
+    background-color: rgb(235, 61, 61);
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.img {
+    height: 750px;
+    width: 100%;
+    background:rgb(2, 0, 0, 0.9)url(images/donation1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    
+}
+.image-text{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+
+section{
+    text-align: center;
+    margin: 50px;
+}
+.paid-amount{
+    padding: 30px;
+    background-color: rgb(251, 249, 247);
+    margin: 20px;
+    border-radius: 5px;
+    color: blue;
+    font-size: 25px;
+    font-weight: 400;
+}
+.paid{
+    display: flex;
+    justify-content: center;
+}
+.colour{
+    border: 3px solid red;
+    color: red;
+}
