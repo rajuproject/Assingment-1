@@ -1,14 +1,17 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
+
 section .image-text h1 {
     font-size: 55px;
     font-weight: 700;
 }
-.text-color{
+
+.text-color {
     color: white;
 }
-a{
+
+a {
     background-color: rgb(235, 61, 61);
     color: aliceblue;
     padding: 10px;
@@ -16,18 +19,20 @@ a{
     font-size: 20px;
     border-radius: 5px;
 }
-.header-image img{
+
+.header-image img {
     width: 100%;
     height: 100%;
     background-size: cover;
-    position: relative; 
+    position: relative;
     display: block;
     margin-bottom: 100px;
 }
-.header-image img::after{
-    content:"";
+
+.header-image img::after {
+    content: "";
     background-image: url("images/dark.jpg");
-    opacity:0.5;
+    opacity: 0.5;
     top: 0;
     bottom: 0;
     left: 0;
@@ -35,7 +40,8 @@ a{
     position: absolute;
     z-index: -1;
 }
-.image-text{
+
+.image-text {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -43,30 +49,35 @@ a{
     text-align: center;
 }
 
-section{
+section {
     text-align: center;
-    margin:0px;
+    margin: 0px;
 }
-.amount{
-    
+
+.amount {
+
     width: 500px;
     text-align: center;
     display: inline;
-    
+
 
 }
-.amount-title{
+
+.amount-title {
     font-size: 50px;
     margin-bottom: -10px;
 }
-.font-color{
+
+.font-color {
     color: #6b6768;
     font-size: medium;
 }
-.headline{
+
+.headline {
     margin-bottom: 30px;
 }
-.paid-amount{
+
+.paid-amount {
     padding: 20px;
     background-color: rgb(251, 249, 247);
     margin: 20px;
@@ -75,33 +86,40 @@ section{
     font-size: 25px;
     font-weight: 400;
 }
-.paid{
+
+.paid {
     display: flex;
     justify-content: center;
 }
-.colour{
+
+.colour {
     border: 3px solid red;
     color: red;
 }
-.button{
+
+.button {
     margin-top: 30px;
 }
-.line{
-    border-bottom:2px solid #6b6768;
+
+.line {
+    border-bottom: 2px solid #6b6768;
     width: 52%;
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #6b6768;
 }
-.color{
+
+.color {
     color: #6b6768;
 }
-.donate-plan{
+
+.donate-plan {
     width: 1200px;
     margin: 0 auto;
 }
-.donate-item-1{
+
+.donate-item-1 {
     background-color: rgb(185, 238, 221);
     color: rgb(140, 135, 135);
     text-align: left;
@@ -109,41 +127,50 @@ section{
     margin: 10px;
     border-radius: 5px;
 }
-.item-2{
-    background-color:rgb(244, 237, 220) ;
+
+.item-2 {
+    background-color: rgb(244, 237, 220);
 }
-.item-3{
+
+.item-3 {
     background-color: rgb(246, 208, 208);
 }
-.contribute-1{
+
+.contribute-1 {
     margin: 50px 150px;
-    
+
     text-align: center;
     width: 1200px;
     justify-content: center;
 }
-.contribute-item{
+
+.contribute-item {
     padding-left: 30px;
     text-align: left;
     margin-bottom: 10px;
 }
 
-.btn{
+.btn {
     margin-top: 20px;
 }
-.contribute{
+
+.contribute {
     display: flex;
 }
-h1{
+
+h1 {
     color: black;
     font-weight: 900;
     font-size: 40px;
+
 }
-.email{
+
+.email {
     display: flex;
     justify-content: center;
 }
-footer{
+
+footer {
     text-align: center;
     justify-content: center;
     background-color: black;
@@ -152,56 +179,80 @@ footer{
     color: red;
     margin: 40px auto;
 }
-footer h1{
+
+footer h1 {
     padding-top: 50px;
+    color: aqua;
 }
-footer h3{
+
+footer h3 {
     color: white;
     font-weight: 200;
 }
-.email{
-    padding: 50px 50px;
-    width: 300px;
+
+.email {
+    padding: 70px 70px;
+    width: 700px;
     text-align: center;
     margin: 0 auto;
     justify-content: space-between;
     background-color: aquamarine;
+    position: relative;
 
 }
-.subscribe{
+
+.subscribe {
     text-align: center;
-    background-color: red;
     display: flex;
     width: 100%;
-    justify-content: space-between;
-}
-.mail{
-    width: 60%;
-    text-align: left;
+    justify-content: center
 
 }
-.sub{
-    width: 40%;
-    text-align: right;
-    background-color: blue;
+
+.mail {
+    width: 300px;
+    text-align: left;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 5px;
+
+
 }
-.news5{
+
+.sub {
+    
+    margin-right: 600;
+    background-color: rgb(223, 35, 48);
+    padding: 10px;
+    border-bottom-right-radius: 5px 5px;
+    border-top-right-radius: 8px;
+}
+
+.news5 {
     display: flex;
     width: 90%;
     text-align: center;
     justify-content: center;
 }
-.news img{
+
+.news img {
     width: 100%;
 }
-.news1{
+
+.news1 {
     margin: 10px;
     padding: 10px;
     width: 100%;
     background-color: antiquewhite;
 
 }
-.news{
+
+.news {
     text-align: center;
     margin-left: 100px;
+}
+.news2{
+    text-align: center;
+    margin-left: 50px;
+    width: 700px;
 }
