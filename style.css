@@ -5,7 +5,7 @@ section .image-text h1 {
     font-size: 55px;
     font-weight: 700;
 }
-.color{
+.text-color{
     color: white;
 }
 a{
@@ -16,17 +16,24 @@ a{
     font-size: 20px;
     border-radius: 5px;
 }
-
-.img {
-    height: 750px;
+.header-image img{
     width: 100%;
-    background:rgb(2, 0, 0, 0.9)url(images/donation1.jpg);
+    height: 100%;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-
-    
+    position: relative; 
+    display: block;
+    margin-bottom: 100px;
+}
+.header-image img::after{
+    content:"";
+    background-image: url("images/dark.jpg");
+    opacity:0.5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 .image-text{
     top: 50%;
@@ -38,7 +45,26 @@ a{
 
 section{
     text-align: center;
-    margin: 50px;
+    margin:0px;
+}
+.amount{
+    
+    width: 500px;
+    text-align: center;
+    display: inline;
+    
+
+}
+.amount-title{
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+.font-color{
+    color: #6b6768;
+    font-size: medium;
+}
+.headline{
+    margin-bottom: 30px;
 }
 .paid-amount{
     padding: 20px;
@@ -61,28 +87,39 @@ section{
     margin-top: 30px;
 }
 .line{
-    border-bottom:2px solid black;
-    width: 780px;
-    text-align: center;
-    justify-content: center;
+    border-bottom:2px solid #6b6768;
+    width: 52%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #6b6768;
+}
+.color{
+    color: #6b6768;
+}
+.donate-plan{
+    width: 1200px;
     margin: 0 auto;
 }
 .donate-item-1{
-    background-color: aquamarine;
-    color: black;
+    background-color: rgb(185, 238, 221);
+    color: rgb(140, 135, 135);
     text-align: left;
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
 }
 .item-2{
-    background-color:goldenrod ;
+    background-color:rgb(244, 237, 220) ;
 }
 .item-3{
-    background-color: brown;
+    background-color: rgb(246, 208, 208);
 }
 .contribute{
     display: flex;
+}
+h1{
+    color: black;
 }
 .email{
     display: flex;
@@ -98,7 +135,7 @@ footer{
     margin: 40px auto;
 }
 footer h1{
-padding-top: 50px;
+    padding-top: 50px;
 }
 footer h3{
     color: white;
