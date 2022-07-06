@@ -29,7 +29,7 @@ a {
     margin-bottom: 100px;
 }
 
-.header-image img{
+.header-image img {
     background-image: linear-gradient(to bottom right, red, yellow);
 }
 
@@ -198,7 +198,6 @@ footer h3 {
     display: flex;
     width: 100%;
     justify-content: center
-
 }
 
 .mail {
@@ -212,7 +211,7 @@ footer h3 {
 }
 
 .sub {
-    
+
     margin-right: 600;
     background-color: rgb(223, 35, 48);
     padding: 10px;
@@ -243,7 +242,8 @@ footer h3 {
     text-align: center;
     margin-left: 100px;
 }
-.news2{
+
+.news2 {
     text-align: center;
     margin-left: 50px;
     width: 700px;
